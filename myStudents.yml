@@ -1,0 +1,22 @@
+---
+- myStudents:
+  - name: mohit
+    phno: 5842621411
+    address:
+       doorno: 101
+       streetno: 1st
+       pincode: 500082
+
+  - name: rajat
+    phno: 565614485
+    address:
+        doorno: 102
+        streetno: 3rd
+        pincode: 500082
+
+  - name: sagar
+    phno: 6215942525
+    address:
+        doorno: 103
+        streetno: 4th
+        pincode: 500082
