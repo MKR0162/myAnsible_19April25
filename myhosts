@@ -16,3 +16,9 @@
 
 [myredhatservers]
 172.31.28.196
+
+
+[mywebservers:vars]
+var01 = value
+myubuntuwebpack = apache2222
+myredhatwebpack = http
