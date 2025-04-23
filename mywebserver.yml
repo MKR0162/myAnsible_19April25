@@ -27,8 +27,8 @@
   - name: i want to start httpd webserver ( service httpd start)
     service:
       name: httpd
-      state: present
-    when: ansible_os_family=="Debian"
+      state: started
+    when: ansible_os_family=="RedHat"
 
 # apt-get install apache2   for install webserver Debian family
 # yum install httpd    for install webserver on RedHat family
