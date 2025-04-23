@@ -25,7 +25,7 @@
 
 
   - name: i want to start httpd webserver ( service httpd start)
-    serbice:
+    service:
       name: httpd
       state: present
     when: ansible_os_family=="Debian"
