@@ -1,3 +1,5 @@
 ---
 myubuntuwebpack: nginx
-myredhatwebpack: httpddd
+myredhatwebpack: httpd
+myubuntujavapack: openjdk-17-jdk
+myredhatjavapack: java-17-amazon-corretto
