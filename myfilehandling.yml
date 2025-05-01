@@ -23,3 +23,9 @@
       url: https://updates.jenkins.io/download/war/2.508/jenkins.war
       dest: /home/mohit/myfolder
       force_basic_auth: yes
+
+
+  - name: i want to copy index file into node side
+    template:
+      src: myindex.j2
+      dest: /var/www/html/index.html
